@@ -37,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.Calculadora_CO2_DIO/CalculadoraCO2-main'
+          path: './Calculadora_CO2_DIO/CalculadoraCO2-main'
 
       # Step 4: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
